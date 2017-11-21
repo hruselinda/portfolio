@@ -1,0 +1,141 @@
+body{
+    font-size: 14px;
+
+}
+#logo{
+    height: 70px;
+}
+
+#logo img {
+    height: 70px;
+    padding: 10px;
+}
+
+#lang-switcher{
+    list-style-type: none;
+    margin: 23px;
+}
+
+#lang-switcher > li{
+    float: left;
+}
+
+#lang-switcher > li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #666633;
+}
+#lang-switcher > li a.is-active{
+    color: #000000;
+}
+
+#lang-switcher > li a:hover{
+    text-decoration: none;
+}
+
+#divider-vertical {
+    height: 19px;
+    border-left: 1px solid #666633;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul a{
+    padding-top: 10px;
+    color: #000;
+}
+
+ul a:hover{
+    text-decoration: none;
+}
+
+.jumbotron{
+    background: url("css/cover6.jpg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 35px;
+}
+
+a:hover{
+    color: #666633;
+    text-decoration: none;
+}
+
+.wrapper{
+    margin-top: 150px;
+}
+
+.wrapper a{
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 185px;
+    display: block;
+}
+
+.wrapper h4{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+#solicitors{
+    background: url(css/res1.jpg) no-repeat;
+    background-size: contain;
+}
+
+#star_hotel{
+    background: url(css/res2.jpg) no-repeat;
+    background-size: contain;
+}
+
+#calculator{
+    background: url(css/res3.jpg) no-repeat;
+    background-size: contain;
+}
+
+#space_battles{
+    background: url(css/res4.jpg) no-repeat;
+    background-size: contain;
+}
+
+a.btn.btn-light{
+    height: 30px;
+    padding-top: 4px;
+    border-radius: 7px;
+    color: #000000;
+    background-color: #d3d3ab;
+    opacity: 0.9;
+}
+
+.gap{
+    height: 50px;
+}
+
+.margin_top {
+    margin-top: 15px;
+}
+
+#demo-form input{
+    text-decoration: none;
+}
+
+textarea.form-control {
+    height: 120px;
+    resize: none;
+}
+
+input.btn-light{
+    background-color: #f5deb3;
+    margin-top: 20px;
+}
+
+footer{
+    padding: 5px 15px;
+    margin-top: 150px;
+    border-radius: 15px;
+    color: #666633;
+}
+
+footer a{
+    color: #000;
+}
